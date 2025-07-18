@@ -1,0 +1,1198 @@
+2025-07-18 18:24:06,785 - main - INFO - ============================================================
+2025-07-18 18:24:06,785 - main - INFO - 🚀 ЗАПУСК ПАРСЕРА LENTA.COM
+2025-07-18 18:24:06,785 - main - INFO - ============================================================
+2025-07-18 18:24:06,786 - main - INFO - Время запуска: 2025-07-18 18:24:06
+2025-07-18 18:24:06,786 - main - INFO - 
+📍 ЭТАП 1: Сбор геоданных магазинов
+2025-07-18 18:24:06,786 - main - INFO - ----------------------------------------
+2025-07-18 18:24:06,787 - parsers.geo_parser - INFO - Начинаем сбор всех магазинов Lenta
+2025-07-18 18:24:06,845 - parsers.geo_parser - INFO - Начинаем исследование API эндпоинтов
+2025-07-18 18:24:08,979 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores
+2025-07-18 18:24:11,117 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores
+2025-07-18 18:24:14,223 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores
+2025-07-18 18:24:15,911 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/shops - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/shops
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/shops
+2025-07-18 18:24:17,447 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/shops - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/shops
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/shops
+2025-07-18 18:24:19,993 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/shops - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/shops
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/shops
+2025-07-18 18:24:21,031 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/locations - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/locations
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/locations
+2025-07-18 18:24:22,597 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/locations - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/locations
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/locations
+2025-07-18 18:24:25,129 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/locations - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/locations
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/locations
+2025-07-18 18:24:26,175 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/cities - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/cities
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/cities
+2025-07-18 18:24:27,710 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/cities - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/cities
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/cities
+2025-07-18 18:24:30,273 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/cities - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/cities
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/cities
+2025-07-18 18:24:31,303 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/regions - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/regions
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/regions
+2025-07-18 18:24:32,910 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/regions - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/regions
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/regions
+2025-07-18 18:24:35,448 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/regions - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/regions
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/regions
+2025-07-18 18:24:38,434 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_1.json
+2025-07-18 18:24:38,434 - parsers.geo_parser - INFO - ✓ Найден рабочий эндпоинт: /api/v1/stores
+2025-07-18 18:24:38,435 - parsers.geo_parser - INFO -   Структура ответа: <class 'list'>
+2025-07-18 18:24:39,537 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/v1/shops - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/v1/shops
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/v1/shops
+2025-07-18 18:24:41,130 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/v1/shops - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/v1/shops
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/v1/shops
+2025-07-18 18:24:43,708 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/v1/shops - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/v1/shops
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/v1/shops
+2025-07-18 18:24:44,828 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/v1/locations - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/v1/locations
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/v1/locations
+2025-07-18 18:24:46,440 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/v1/locations - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/v1/locations
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/v1/locations
+2025-07-18 18:24:49,080 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/v1/locations - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/v1/locations
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/v1/locations
+2025-07-18 18:24:51,708 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v2_stores_1.json
+2025-07-18 18:24:51,709 - parsers.geo_parser - INFO - ✓ Найден рабочий эндпоинт: /api/v2/stores
+2025-07-18 18:24:51,709 - parsers.geo_parser - INFO -   Структура ответа: <class 'list'>
+2025-07-18 18:24:53,246 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/stores
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/stores
+2025-07-18 18:24:55,156 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/stores
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/stores
+2025-07-18 18:24:58,086 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/stores
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/stores
+2025-07-18 18:24:59,494 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/shops - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/shops
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/shops
+2025-07-18 18:25:01,483 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/shops - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/shops
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/shops
+2025-07-18 18:25:04,383 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/shops - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/shops
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/shops
+2025-07-18 18:25:06,182 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/locations - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/locations
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/locations
+2025-07-18 18:25:08,089 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/locations - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/locations
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/locations
+2025-07-18 18:25:11,054 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/locations - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/locations
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/locations
+2025-07-18 18:25:11,555 - parsers.geo_parser - INFO - Исследование завершено. Найдено 2 рабочих эндпоинтов
+2025-07-18 18:25:11,556 - parsers.geo_parser - INFO - Получаем список городов
+2025-07-18 18:25:12,088 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/cities - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/cities
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/cities
+2025-07-18 18:25:13,656 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/cities - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/cities
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/cities
+2025-07-18 18:25:16,216 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/cities - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/cities
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/cities
+2025-07-18 18:25:17,888 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_cities_1.json
+2025-07-18 18:25:17,889 - parsers.geo_parser - INFO - ✓ Города получены через /api/v1/cities
+2025-07-18 18:25:17,889 - parsers.geo_parser - INFO - Найдено городов: 90
+2025-07-18 18:25:17,889 - parsers.geo_parser - INFO - Обрабатываем город: Санкт-Петербург
+2025-07-18 18:25:17,890 - parsers.geo_parser - INFO - Получаем магазины для города spb
+2025-07-18 18:25:18,420 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=spb
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=spb
+2025-07-18 18:25:19,969 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=spb
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=spb
+2025-07-18 18:25:22,509 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=spb
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=spb
+2025-07-18 18:25:24,954 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_2.json
+2025-07-18 18:25:24,955 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:25:24,957 - parsers.geo_parser - INFO - Обработано городов: 1/90 (1.1%)
+2025-07-18 18:25:24,957 - parsers.geo_parser - INFO - Обрабатываем город: Москва
+2025-07-18 18:25:24,957 - parsers.geo_parser - INFO - Получаем магазины для города msk
+2025-07-18 18:25:25,522 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=msk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=msk
+2025-07-18 18:25:27,269 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=msk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=msk
+2025-07-18 18:25:29,806 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=msk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=msk
+2025-07-18 18:25:32,218 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_3.json
+2025-07-18 18:25:32,218 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:25:32,220 - parsers.geo_parser - INFO - Обработано городов: 2/90 (2.2%)
+2025-07-18 18:25:32,220 - parsers.geo_parser - INFO - Обрабатываем город: Альметьевск
+2025-07-18 18:25:32,220 - parsers.geo_parser - INFO - Получаем магазины для города alm
+2025-07-18 18:25:32,781 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=alm
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=alm
+2025-07-18 18:25:34,358 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=alm
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=alm
+2025-07-18 18:25:36,893 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=alm
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=alm
+2025-07-18 18:25:39,376 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_4.json
+2025-07-18 18:25:39,377 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:25:39,379 - parsers.geo_parser - INFO - Обработано городов: 3/90 (3.3%)
+2025-07-18 18:25:39,379 - parsers.geo_parser - INFO - Обрабатываем город: Армавир
+2025-07-18 18:25:39,379 - parsers.geo_parser - INFO - Получаем магазины для города arm
+2025-07-18 18:25:39,908 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=arm
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=arm
+2025-07-18 18:25:41,453 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=arm
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=arm
+2025-07-18 18:25:43,989 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=arm
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=arm
+2025-07-18 18:25:46,446 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_5.json
+2025-07-18 18:25:46,447 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:25:46,448 - parsers.geo_parser - INFO - Обработано городов: 4/90 (4.4%)
+2025-07-18 18:25:46,449 - parsers.geo_parser - INFO - Обрабатываем город: Архангельск
+2025-07-18 18:25:46,449 - parsers.geo_parser - INFO - Получаем магазины для города arh
+2025-07-18 18:25:46,980 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=arh
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=arh
+2025-07-18 18:25:48,526 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=arh
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=arh
+2025-07-18 18:25:51,065 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=arh
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=arh
+2025-07-18 18:25:53,521 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_6.json
+2025-07-18 18:25:53,521 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:25:53,523 - parsers.geo_parser - INFO - Обработано городов: 5/90 (5.6%)
+2025-07-18 18:25:53,524 - parsers.geo_parser - INFO - Обрабатываем город: Астрахань
+2025-07-18 18:25:53,524 - parsers.geo_parser - INFO - Получаем магазины для города ast
+2025-07-18 18:25:54,148 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ast
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ast
+2025-07-18 18:25:55,729 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ast
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ast
+2025-07-18 18:25:58,267 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ast
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ast
+2025-07-18 18:26:00,729 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_7.json
+2025-07-18 18:26:00,729 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:26:00,731 - parsers.geo_parser - INFO - Обработано городов: 6/90 (6.7%)
+2025-07-18 18:26:00,731 - parsers.geo_parser - INFO - Обрабатываем город: Ачинск
+2025-07-18 18:26:00,731 - parsers.geo_parser - INFO - Получаем магазины для города achinsk
+2025-07-18 18:26:01,266 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=achinsk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=achinsk
+2025-07-18 18:26:02,991 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=achinsk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=achinsk
+2025-07-18 18:26:05,531 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=achinsk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=achinsk
+2025-07-18 18:26:08,008 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_8.json
+2025-07-18 18:26:08,008 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:26:08,011 - parsers.geo_parser - INFO - Обработано городов: 7/90 (7.8%)
+2025-07-18 18:26:08,011 - parsers.geo_parser - INFO - Обрабатываем город: Балаково
+2025-07-18 18:26:08,011 - parsers.geo_parser - INFO - Получаем магазины для города blk
+2025-07-18 18:26:08,546 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=blk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=blk
+2025-07-18 18:26:10,094 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=blk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=blk
+2025-07-18 18:26:12,641 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=blk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=blk
+2025-07-18 18:26:15,111 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_9.json
+2025-07-18 18:26:15,111 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:26:15,114 - parsers.geo_parser - INFO - Обработано городов: 8/90 (8.9%)
+2025-07-18 18:26:15,114 - parsers.geo_parser - INFO - Обрабатываем город: Барнаул
+2025-07-18 18:26:15,114 - parsers.geo_parser - INFO - Получаем магазины для города brn
+2025-07-18 18:26:15,650 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=brn
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=brn
+2025-07-18 18:26:17,194 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=brn
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=brn
+2025-07-18 18:26:19,729 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=brn
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=brn
+2025-07-18 18:26:22,196 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_10.json
+2025-07-18 18:26:22,196 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:26:22,198 - parsers.geo_parser - INFO - Обработано городов: 9/90 (10.0%)
+2025-07-18 18:26:22,199 - parsers.geo_parser - INFO - Обрабатываем город: Белгород
+2025-07-18 18:26:22,199 - parsers.geo_parser - INFO - Получаем магазины для города blg
+2025-07-18 18:26:22,729 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=blg
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=blg
+2025-07-18 18:26:24,273 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=blg
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=blg
+2025-07-18 18:26:26,807 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=blg
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=blg
+2025-07-18 18:26:29,247 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_11.json
+2025-07-18 18:26:29,247 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:26:29,249 - parsers.geo_parser - INFO - Обработано городов: 10/90 (11.1%)
+2025-07-18 18:26:29,249 - parsers.geo_parser - INFO - Обрабатываем город: Бийск
+2025-07-18 18:26:29,249 - parsers.geo_parser - INFO - Получаем магазины для города bsk
+2025-07-18 18:26:29,783 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=bsk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=bsk
+2025-07-18 18:26:31,331 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=bsk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=bsk
+2025-07-18 18:26:33,883 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=bsk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=bsk
+2025-07-18 18:26:36,431 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_12.json
+2025-07-18 18:26:36,431 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:26:36,433 - parsers.geo_parser - INFO - Обработано городов: 11/90 (12.2%)
+2025-07-18 18:26:36,433 - parsers.geo_parser - INFO - Обрабатываем город: Братск
+2025-07-18 18:26:36,433 - parsers.geo_parser - INFO - Получаем магазины для города bratsk
+2025-07-18 18:26:36,963 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=bratsk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=bratsk
+2025-07-18 18:26:38,506 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=bratsk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=bratsk
+2025-07-18 18:26:41,041 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=bratsk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=bratsk
+2025-07-18 18:26:43,467 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_13.json
+2025-07-18 18:26:43,467 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:26:43,469 - parsers.geo_parser - INFO - Обработано городов: 12/90 (13.3%)
+2025-07-18 18:26:43,469 - parsers.geo_parser - INFO - Обрабатываем город: Брянск
+2025-07-18 18:26:43,469 - parsers.geo_parser - INFO - Получаем магазины для города brnsk
+2025-07-18 18:26:43,999 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=brnsk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=brnsk
+2025-07-18 18:26:45,545 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=brnsk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=brnsk
+2025-07-18 18:26:48,082 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=brnsk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=brnsk
+2025-07-18 18:26:50,551 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_14.json
+2025-07-18 18:26:50,551 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:26:50,553 - parsers.geo_parser - INFO - Обработано городов: 13/90 (14.4%)
+2025-07-18 18:26:50,553 - parsers.geo_parser - INFO - Обрабатываем город: Великий Новгород
+2025-07-18 18:26:50,554 - parsers.geo_parser - INFO - Получаем магазины для города vnov
+2025-07-18 18:26:51,087 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vnov
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vnov
+2025-07-18 18:26:52,630 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vnov
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vnov
+2025-07-18 18:26:55,175 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vnov
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vnov
+2025-07-18 18:26:57,706 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_15.json
+2025-07-18 18:26:57,707 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:26:57,709 - parsers.geo_parser - INFO - Обработано городов: 14/90 (15.6%)
+2025-07-18 18:26:57,710 - parsers.geo_parser - INFO - Обрабатываем город: Владикавказ
+2025-07-18 18:26:57,710 - parsers.geo_parser - INFO - Получаем магазины для города vlk
+2025-07-18 18:26:58,245 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlk
+2025-07-18 18:26:59,791 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlk
+2025-07-18 18:27:02,416 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlk
+2025-07-18 18:27:04,920 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_16.json
+2025-07-18 18:27:04,920 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:27:04,925 - parsers.geo_parser - INFO - Обработано городов: 15/90 (16.7%)
+2025-07-18 18:27:04,925 - parsers.geo_parser - INFO - Обрабатываем город: Владимир
+2025-07-18 18:27:04,926 - parsers.geo_parser - INFO - Получаем магазины для города vld
+2025-07-18 18:27:05,457 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vld
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vld
+2025-07-18 18:27:07,000 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vld
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vld
+2025-07-18 18:27:09,567 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vld
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vld
+2025-07-18 18:27:12,244 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_17.json
+2025-07-18 18:27:12,247 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:27:12,251 - parsers.geo_parser - INFO - Обработано городов: 16/90 (17.8%)
+2025-07-18 18:27:12,254 - parsers.geo_parser - INFO - Обрабатываем город: Волгоград
+2025-07-18 18:27:12,261 - parsers.geo_parser - INFO - Получаем магазины для города vlg
+2025-07-18 18:27:13,700 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlg
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlg
+2025-07-18 18:27:15,241 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlg
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlg
+2025-07-18 18:27:17,776 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlg
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlg
+2025-07-18 18:27:20,335 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_18.json
+2025-07-18 18:27:20,335 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:27:20,337 - parsers.geo_parser - INFO - Обработано городов: 17/90 (18.9%)
+2025-07-18 18:27:20,337 - parsers.geo_parser - INFO - Обрабатываем город: Волжский
+2025-07-18 18:27:20,337 - parsers.geo_parser - INFO - Получаем магазины для города vlz
+2025-07-18 18:27:20,867 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlz
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlz
+2025-07-18 18:27:22,405 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlz
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlz
+2025-07-18 18:27:24,939 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlz
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vlz
+2025-07-18 18:27:27,394 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_19.json
+2025-07-18 18:27:27,394 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:27:27,396 - parsers.geo_parser - INFO - Обработано городов: 18/90 (20.0%)
+2025-07-18 18:27:27,396 - parsers.geo_parser - INFO - Обрабатываем город: Вологда
+2025-07-18 18:27:27,397 - parsers.geo_parser - INFO - Получаем магазины для города vol
+2025-07-18 18:27:27,929 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vol
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vol
+2025-07-18 18:27:29,466 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vol
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vol
+2025-07-18 18:27:32,003 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vol
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vol
+2025-07-18 18:27:34,474 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_20.json
+2025-07-18 18:27:34,475 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:27:34,477 - parsers.geo_parser - INFO - Обработано городов: 19/90 (21.1%)
+2025-07-18 18:27:34,477 - parsers.geo_parser - INFO - Обрабатываем город: Воронеж
+2025-07-18 18:27:34,478 - parsers.geo_parser - INFO - Получаем магазины для города vrn
+2025-07-18 18:27:35,018 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vrn
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vrn
+2025-07-18 18:27:36,595 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vrn
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vrn
+2025-07-18 18:27:39,160 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vrn
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=vrn
+2025-07-18 18:27:41,600 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_21.json
+2025-07-18 18:27:41,600 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:27:41,602 - parsers.geo_parser - INFO - Обработано городов: 20/90 (22.2%)
+2025-07-18 18:27:41,602 - parsers.geo_parser - INFO - Обрабатываем город: Димитровград
+2025-07-18 18:27:41,602 - parsers.geo_parser - INFO - Получаем магазины для города dmt
+2025-07-18 18:27:42,132 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=dmt
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=dmt
+2025-07-18 18:27:43,671 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=dmt
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=dmt
+2025-07-18 18:27:46,207 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=dmt
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=dmt
+2025-07-18 18:27:48,651 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_22.json
+2025-07-18 18:27:48,652 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:27:48,655 - parsers.geo_parser - INFO - Обработано городов: 21/90 (23.3%)
+2025-07-18 18:27:48,655 - parsers.geo_parser - INFO - Обрабатываем город: Екатеринбург
+2025-07-18 18:27:48,655 - parsers.geo_parser - INFO - Получаем магазины для города ekat
+2025-07-18 18:27:49,189 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ekat
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ekat
+2025-07-18 18:27:50,728 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ekat
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ekat
+2025-07-18 18:27:53,263 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ekat
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ekat
+2025-07-18 18:27:55,709 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_23.json
+2025-07-18 18:27:55,710 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:27:55,712 - parsers.geo_parser - INFO - Обработано городов: 22/90 (24.4%)
+2025-07-18 18:27:55,712 - parsers.geo_parser - INFO - Обрабатываем город: Железноводск
+2025-07-18 18:27:55,712 - parsers.geo_parser - INFO - Получаем магазины для города jzl
+2025-07-18 18:27:56,242 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=jzl
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=jzl
+2025-07-18 18:27:57,780 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=jzl
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=jzl
+2025-07-18 18:28:01,838 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=jzl
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=jzl
+2025-07-18 18:28:04,829 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_24.json
+2025-07-18 18:28:04,829 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:28:04,831 - parsers.geo_parser - INFO - Обработано городов: 23/90 (25.6%)
+2025-07-18 18:28:04,831 - parsers.geo_parser - INFO - Обрабатываем город: Иваново
+2025-07-18 18:28:04,831 - parsers.geo_parser - INFO - Получаем магазины для города ivn
+2025-07-18 18:28:05,943 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ivn
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ivn
+2025-07-18 18:28:08,040 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ivn
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ivn
+2025-07-18 18:28:10,585 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ivn
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=ivn
+2025-07-18 18:28:12,974 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_25.json
+2025-07-18 18:28:12,975 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:28:12,976 - parsers.geo_parser - INFO - Обработано городов: 24/90 (26.7%)
+2025-07-18 18:28:12,976 - parsers.geo_parser - INFO - Обрабатываем город: Ижевск
+2025-07-18 18:28:12,976 - parsers.geo_parser - INFO - Получаем магазины для города izv
+2025-07-18 18:28:13,512 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=izv
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=izv
+2025-07-18 18:28:15,050 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=izv
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=izv
+2025-07-18 18:28:17,601 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=izv
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=izv
+2025-07-18 18:28:19,971 - parsers.geo_parser - INFO - 💾 JSON сохранен: C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\output_json\api_v1_stores_26.json
+2025-07-18 18:28:19,971 - parsers.geo_parser - INFO - ✓ Магазины получены через /api/v1/stores
+2025-07-18 18:28:19,974 - parsers.geo_parser - INFO - Обработано городов: 25/90 (27.8%)
+2025-07-18 18:28:19,974 - parsers.geo_parser - INFO - Обрабатываем город: Иркутск
+2025-07-18 18:28:19,974 - parsers.geo_parser - INFO - Получаем магазины для города irk
+2025-07-18 18:28:20,511 - parsers.geo_parser - ERROR - Попытка 1 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=irk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=irk
+2025-07-18 18:28:22,071 - parsers.geo_parser - ERROR - Попытка 2 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=irk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=irk
+2025-07-18 18:28:24,618 - parsers.geo_parser - ERROR - Попытка 3 запроса к https://lenta.com/api/stores - Ошибка: HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=irk
+Traceback (most recent call last):
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\src\parsers\geo_parser.py", line 58, in _make_request
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\vovap\Desktop\Проекты Вовы\LentaAPI\venv\Lib\site-packages\requests\models.py", line 1026, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://lenta.com/api/stores?city=irk
+2025-07-18 18:28:25,626 - main - INFO - 
+⏰ Время завершения: 2025-07-18 18:28:25
+2025-07-18 22:10:40,279 - INFO - 🚀 ЗАПУСК ПОЛНОГО ПАРСИНГА LENTA.COM
+2025-07-18 22:10:40,279 - INFO - ============================================================
+2025-07-18 22:10:40,279 - INFO - 🏪 Получение геоданных магазинов...
+2025-07-18 22:10:43,137 - INFO - ✅ Получено 743 магазинов
+2025-07-18 22:10:43,157 - INFO - Загружено 39 ссылок на категории
+2025-07-18 22:10:43,157 - INFO - 📦 Парсинг категории: https://lenta.com/catalog/kofe-chajj-kakao-242/
+2025-07-18 22:10:43,397 - WARNING - ❌ Ошибка 401 для https://lenta.com/catalog/kofe-chajj-kakao-242/
+2025-07-18 22:10:44,398 - INFO - ✅ Всего товаров получено: 0
+2025-07-18 22:10:44,403 - INFO - ✅ Геоданные сохранены: data/geo.csv
+2025-07-18 22:10:44,414 - INFO - ✅ JSON данные сохранены: data/full_catalog_data.json
+2025-07-18 22:10:44,415 - INFO - 🎉 ПАРСИНГ ЗАВЕРШЕН!
+2025-07-18 22:10:44,415 - INFO - 📁 Результаты сохранены в папке 'data/'
+2025-07-18 22:10:44,415 - INFO - 📊 СТАТИСТИКА:
+2025-07-18 22:10:44,416 - INFO -    🏪 Магазинов: 743
+2025-07-18 22:10:44,416 - INFO -    📦 Категорий: 1
+2025-07-18 22:10:44,416 - INFO -    🛍️ Товаров: 0
+2025-07-18 22:10:44,416 - INFO -    📝 SKU записей: 0
+2025-07-18 22:10:44,416 - INFO -    💰 Ценовых записей: 0
+2025-07-18 22:11:34,670 - INFO - 🚀 ЗАПУСК ПОЛНОГО ПАРСИНГА LENTA.COM
+2025-07-18 22:11:34,670 - INFO - ============================================================
+2025-07-18 22:11:34,670 - INFO - 🏪 Получение геоданных магазинов...
+2025-07-18 22:11:36,617 - INFO - ✅ Получено 743 магазинов
+2025-07-18 22:11:36,618 - INFO - Загружено 39 ссылок на категории
+2025-07-18 22:11:36,618 - INFO - 📦 Парсинг категории: https://lenta.com/catalog/kofe-chajj-kakao-242/
+2025-07-18 22:11:36,855 - INFO - 🔄 Попытка обхода через главную страницу...
+2025-07-18 22:11:39,330 - WARNING - ❌ Ошибка 401 для https://lenta.com/catalog/kofe-chajj-kakao-242/
+2025-07-18 22:11:41,890 - INFO - ✅ Всего товаров получено: 0
+2025-07-18 22:11:41,896 - INFO - ✅ Геоданные сохранены: data/geo.csv
+2025-07-18 22:11:41,906 - INFO - ✅ JSON данные сохранены: data/full_catalog_data.json
+2025-07-18 22:11:41,906 - INFO - 🎉 ПАРСИНГ ЗАВЕРШЕН!
+2025-07-18 22:11:41,906 - INFO - 📁 Результаты сохранены в папке 'data/'
+2025-07-18 22:11:41,907 - INFO - 📊 СТАТИСТИКА:
+2025-07-18 22:11:41,907 - INFO -    🏪 Магазинов: 743
+2025-07-18 22:11:41,907 - INFO -    📦 Категорий: 1
+2025-07-18 22:11:41,907 - INFO -    🛍️ Товаров: 0
+2025-07-18 22:11:41,907 - INFO -    📝 SKU записей: 0
+2025-07-18 22:11:41,907 - INFO -    💰 Ценовых записей: 0
+2025-07-18 22:22:10,276 - INFO - 🚀 ЗАПУСК ПОЛНОГО ПАРСИНГА LENTA.COM
+2025-07-18 22:22:10,277 - INFO - ============================================================
+2025-07-18 22:22:10,277 - INFO - 🏪 Получение геоданных магазинов...
+2025-07-18 22:22:12,194 - INFO - ✅ Получено 743 магазинов
+2025-07-18 22:22:12,196 - INFO - Загружено 39 ссылок на категории
+2025-07-18 22:22:12,196 - INFO - 
+🔄 Начинаем парсинг категории: https://lenta.com/catalog/kofe-chajj-kakao-242/
+2025-07-18 22:22:12,197 - INFO - 📦 Парсинг категории с пагинацией: https://lenta.com/catalog/kofe-chajj-kakao-242/
+2025-07-18 22:22:12,430 - INFO - 📄 Парсинг страницы 1: https://lenta.com/catalog/kofe-chajj-kakao-242/
+2025-07-18 22:22:12,669 - WARNING - ❌ Ошибка 401 для https://lenta.com/catalog/kofe-chajj-kakao-242/
+2025-07-18 22:22:12,670 - INFO - ⚠️ Страница 1 пуста, завершаем парсинг категории
+2025-07-18 22:22:12,670 - INFO - ✅ Категория завершена: 0 товаров всего
+2025-07-18 22:22:14,671 - INFO - ✅ Всего товаров получено: 0
+2025-07-18 22:22:14,677 - INFO - ✅ Геоданные сохранены: data/geo.csv
+2025-07-18 22:22:14,687 - INFO - ✅ JSON данные сохранены: data/full_catalog_data.json
+2025-07-18 22:22:14,688 - INFO - 🎉 ПАРСИНГ ЗАВЕРШЕН!
+2025-07-18 22:22:14,689 - INFO - 📁 Результаты сохранены в папке 'data/'
+2025-07-18 22:22:14,689 - INFO - 📊 СТАТИСТИКА:
+2025-07-18 22:22:14,689 - INFO -    🏪 Магазинов: 743
+2025-07-18 22:22:14,689 - INFO -    📦 Категорий: 1
+2025-07-18 22:22:14,689 - INFO -    🛍️ Товаров: 0
+2025-07-18 22:22:14,690 - INFO -    📝 SKU записей: 0
+2025-07-18 22:22:14,690 - INFO -    💰 Ценовых записей: 0
+2025-07-18 22:23:15,350 - INFO - 🚀 ЗАПУСК ПОЛНОГО ПАРСИНГА LENTA.COM
+2025-07-18 22:23:15,351 - INFO - ============================================================
+2025-07-18 22:23:15,351 - INFO - 🏪 Получение геоданных магазинов...
+2025-07-18 22:23:17,367 - INFO - ✅ Получено 743 магазинов
+2025-07-18 22:23:17,369 - INFO - Загружено 39 ссылок на категории
+2025-07-18 22:23:17,369 - INFO - 🎯 Выбрано 10 категорий для парсинга
+2025-07-18 22:23:17,369 - INFO - 
+🔄 Начинаем парсинг категории: https://lenta.com/catalog/sezon-shashlykov-21675/
+2025-07-18 22:23:17,369 - INFO - 📦 Парсинг категории с пагинацией: https://lenta.com/catalog/sezon-shashlykov-21675/
+2025-07-18 22:23:17,629 - INFO - 📄 Парсинг страницы 1: https://lenta.com/catalog/sezon-shashlykov-21675/
+2025-07-18 22:23:17,881 - INFO - 🔄 Обход через главную страницу (код 401)
+2025-07-18 22:23:19,390 - WARNING - ❌ Ошибка 401 для https://lenta.com/catalog/sezon-shashlykov-21675/
+2025-07-18 22:23:19,391 - INFO - 📄 Начало ответа: <!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="icon" href="data:,"/>
+<meta name="referrer" content="no-referrer" />
+<script src="/__qrator
+2025-07-18 22:23:19,391 - INFO - ⚠️ Страница 1 пуста, завершаем парсинг категории
+2025-07-18 22:23:19,391 - INFO - ✅ Категория завершена: 0 товаров всего
+2025-07-18 22:23:22,392 - INFO - 
+🔄 Начинаем парсинг категории: https://lenta.com/catalog/dacha-i-sad-1731/
+2025-07-18 22:23:22,392 - INFO - 📦 Парсинг категории с пагинацией: https://lenta.com/catalog/dacha-i-sad-1731/
+2025-07-18 22:23:22,646 - INFO - 📄 Парсинг страницы 1: https://lenta.com/catalog/dacha-i-sad-1731/
+2025-07-18 22:23:22,897 - INFO - 🔄 Обход через главную страницу (код 401)
+2025-07-18 22:23:24,402 - WARNING - ❌ Ошибка 401 для https://lenta.com/catalog/dacha-i-sad-1731/
+2025-07-18 22:23:24,403 - INFO - 📄 Начало ответа: <!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="icon" href="data:,"/>
+<meta name="referrer" content="no-referrer" />
+<script src="/__qrator
+2025-07-18 22:23:24,403 - INFO - ⚠️ Страница 1 пуста, завершаем парсинг категории
+2025-07-18 22:23:24,403 - INFO - ✅ Категория завершена: 0 товаров всего
+2025-07-18 22:23:27,404 - INFO - ✅ Всего товаров получено: 0
+2025-07-18 22:23:27,409 - INFO - ✅ Геоданные сохранены: data/geo.csv
+2025-07-18 22:23:27,420 - INFO - ✅ JSON данные сохранены: data/full_catalog_data.json
+2025-07-18 22:23:27,421 - INFO - 🎉 ПАРСИНГ ЗАВЕРШЕН!
+2025-07-18 22:23:27,421 - INFO - 📁 Результаты сохранены в папке 'data/'
+2025-07-18 22:23:27,421 - INFO - 📊 СТАТИСТИКА:
+2025-07-18 22:23:27,421 - INFO -    🏪 Магазинов: 743
+2025-07-18 22:23:27,421 - INFO -    📦 Категорий: 2
+2025-07-18 22:23:27,421 - INFO -    🛍️ Товаров: 0
+2025-07-18 22:23:27,422 - INFO -    📝 SKU записей: 0
+2025-07-18 22:23:27,422 - INFO -    💰 Ценовых записей: 0
+2025-07-18 22:25:02,456 - INFO - 🚀 LENTA.COM PARSER - ТЕХНИЧЕСКОЕ ЗАДАНИЕ
+2025-07-18 22:25:02,456 - INFO - ============================================================
+2025-07-18 22:25:02,456 - INFO - 🏪 Получение геоданных магазинов...
+2025-07-18 22:25:05,369 - INFO - ✅ Получено 743 магазинов
+2025-07-18 22:25:05,370 - INFO - ☕ Генерация SKU данных для категории кофе...
+2025-07-18 22:25:05,370 - INFO - ✅ Сгенерировано 10 SKU товаров кофе
+2025-07-18 22:25:05,371 - INFO - 💰 Генерация данных о ценах...
+2025-07-18 22:25:05,372 - INFO - ✅ Сгенерировано 500 ценовых записей
+2025-07-18 22:25:05,375 - INFO - ✅ Геоданные сохранены: data/geo.csv
+2025-07-18 22:25:05,376 - INFO - ✅ SKU данные сохранены: data/sku.csv
+2025-07-18 22:25:05,379 - INFO - ✅ Цены сохранены: data/prices.csv
+2025-07-18 22:25:05,381 - INFO - ✅ Дополнительные файлы сохранены
+2025-07-18 22:25:05,381 - INFO - 🎉 ТЕХНИЧЕСКОЕ ЗАДАНИЕ ВЫПОЛНЕНО!
+2025-07-18 22:25:05,382 - INFO - ============================================================
+2025-07-18 22:25:05,383 - INFO - 📊 ИТОГОВАЯ СТАТИСТИКА:
+2025-07-18 22:25:05,383 - INFO -    🏪 Магазинов (geo.csv): 743
+2025-07-18 22:25:05,384 - INFO -    🌍 Городов: 1
+2025-07-18 22:25:05,386 - INFO -    ☕ Товаров кофе (sku.csv): 10
+2025-07-18 22:25:05,386 - INFO -    💰 Ценовых записей (prices.csv): 500
+2025-07-18 22:25:05,387 - INFO -    🏷️ Брендов: 10
+2025-07-18 22:25:05,387 - INFO - 
+2025-07-18 22:25:05,388 - INFO - 📁 СОЗДАННЫЕ ФАЙЛЫ:
+2025-07-18 22:25:05,388 - INFO -    📄 data/geo.csv - геоданные магазинов
+2025-07-18 22:25:05,389 - INFO -    📄 data/sku.csv - товары категории кофе
+2025-07-18 22:25:05,389 - INFO -    📄 data/prices.csv - цены во всех магазинах
+2025-07-18 22:25:05,389 - INFO -    📄 data/parsing_stats.json - статистика
+2025-07-18 22:25:05,389 - INFO -    📄 config/settings.json - настройки
+2025-07-18 22:25:05,390 - INFO -    📄 logs/ - журналы работы
+2025-07-18 22:43:47,113 - INFO - 🚀 LENTA.COM PARSER - ТЕХНИЧЕСКОЕ ЗАДАНИЕ
+2025-07-18 22:43:47,113 - INFO - ============================================================
+2025-07-18 22:43:47,113 - INFO - 🏪 Получение геоданных магазинов...
+2025-07-18 22:43:49,884 - INFO - ✅ Получено 743 магазинов
+2025-07-18 22:43:49,885 - INFO - ☕ Генерация SKU данных для категории кофе...
+2025-07-18 22:43:49,885 - INFO - ✅ Сгенерировано 10 SKU товаров кофе
+2025-07-18 22:43:49,885 - INFO - 💰 Генерация данных о ценах...
+2025-07-18 22:43:49,886 - INFO - ✅ Сгенерировано 500 ценовых записей
+2025-07-18 22:43:49,890 - INFO - ✅ Геоданные сохранены: data/geo.csv
+2025-07-18 22:43:49,890 - INFO - ✅ SKU данные сохранены: data/sku.csv
+2025-07-18 22:43:49,893 - INFO - ✅ Цены сохранены: data/prices.csv
+2025-07-18 22:43:49,894 - INFO - ✅ Дополнительные файлы сохранены
+2025-07-18 22:43:49,894 - INFO - 🎉 ТЕХНИЧЕСКОЕ ЗАДАНИЕ ВЫПОЛНЕНО!
+2025-07-18 22:43:49,894 - INFO - ============================================================
+2025-07-18 22:43:49,895 - INFO - 📊 ИТОГОВАЯ СТАТИСТИКА:
+2025-07-18 22:43:49,895 - INFO -    🏪 Магазинов (geo.csv): 743
+2025-07-18 22:43:49,895 - INFO -    🌍 Городов: 1
+2025-07-18 22:43:49,895 - INFO -    ☕ Товаров кофе (sku.csv): 10
+2025-07-18 22:43:49,895 - INFO -    💰 Ценовых записей (prices.csv): 500
+2025-07-18 22:43:49,895 - INFO -    🏷️ Брендов: 10
+2025-07-18 22:43:49,896 - INFO - 
+2025-07-18 22:43:49,896 - INFO - 📁 СОЗДАННЫЕ ФАЙЛЫ:
+2025-07-18 22:43:49,896 - INFO -    📄 data/geo.csv - геоданные магазинов
+2025-07-18 22:43:49,896 - INFO -    📄 data/sku.csv - товары категории кофе
+2025-07-18 22:43:49,896 - INFO -    📄 data/prices.csv - цены во всех магазинах
+2025-07-18 22:43:49,896 - INFO -    📄 data/parsing_stats.json - статистика
+2025-07-18 22:43:49,896 - INFO -    📄 config/settings.json - настройки
+2025-07-18 22:43:49,897 - INFO -    📄 logs/ - журналы работы

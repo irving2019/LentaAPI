@@ -1,0 +1,15 @@
+{
+  "api_endpoints": {
+    "stores": "/api/v1/stores",
+    "cities": "/api/v1/cities",
+    "catalog": "/catalog/"
+  },
+  "categories": {
+    "coffee": "kofe-chajj-kakao-242"
+  },
+  "parser_settings": {
+    "timeout": 10,
+    "max_retries": 3,
+    "delay_between_requests": 1
+  }
+}
